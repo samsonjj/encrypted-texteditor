@@ -2,16 +2,11 @@
 // Java Program to create a text editor using java
 
 import java.awt.*;
-import javax.crypto.spec.IvParameterSpec;
-import javax.crypto.spec.SecretKeySpec;
 import javax.swing.*;
 import java.io.*;
 import java.awt.event.*;
-import java.lang.reflect.Array;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.stream.Stream;
 import javax.swing.event.UndoableEditEvent;
 import javax.swing.event.UndoableEditListener;
 import javax.swing.plaf.metal.*;
@@ -20,8 +15,6 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 import javax.swing.undo.UndoManager;
 
-import com.sun.deploy.util.ArrayUtil;
-import com.sun.xml.internal.bind.api.impl.NameConverter;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
@@ -157,7 +150,7 @@ class Editor extends JFrame implements ActionListener {
         f.setSize(500, 500);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        f.show();
+        f.setVisible(true);
 
         f.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/check.png")));
     }
