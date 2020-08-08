@@ -10,5 +10,54 @@
     <orderEntry type="library" name="commons-crypto-1.0" level="project" />
     <orderEntry type="library" name="commons-io-2" level="project" />
     <orderEntry type="library" name="commons-lang3-3.8" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/commons-io-2.7-bin/commons-io-2.7" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Downloads/commons-io-2.7-bin/commons-io-2.7/docs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/commons-io-2.7-bin/commons-io-2.7" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/commons-io-2.7-bin/commons-io-2.7" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/commons-io-2.7-bin/commons-io-2.7" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/commons-lang3-3.11-bin/commons-lang3-3.11" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Downloads/commons-lang3-3.11-bin/commons-lang3-3.11/apidocs" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/commons-lang3-3.11-bin/commons-lang3-3.11" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/commons-lang3-3.11-bin/commons-lang3-3.11" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/commons-lang3-3.11-bin/commons-lang3-3.11" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/deploy.jar/deploy.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/jar_files" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Downloads/jar_files" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
