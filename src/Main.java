@@ -20,11 +20,13 @@ import javax.swing.undo.CannotRedoException;
 import javax.swing.undo.CannotUndoException;
 import javax.swing.undo.UndoManager;
 
-import com.sun.deploy.util.ArrayUtil;
-import com.sun.xml.internal.bind.api.impl.NameConverter;
+//import com.sun.deploy.util.ArrayUtil;
+//import com.sun.xml.internal.bind.api.impl.NameConverter;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.ArrayUtils;
+
+import static org.apache.commons.lang3.ArrayUtils.*;
 
 class Editor extends JFrame implements ActionListener {
 
@@ -197,9 +199,9 @@ class Editor extends JFrame implements ActionListener {
                     }
 
                     // Encrypt to cyphertext
-                    byte[] encodedBytes = crypto.encrypt(ArrayUtils.addAll(SAFETY, Crypto.getUTF8Bytes(t.getText())));
+                    byte[] encodedBytes = crypto.encrypt(addAll(SAFETY, Crypto.getUTF8Bytes(t.getText())));
 
-                    byte[] finalBytes = ArrayUtils.addAll(SAFETY, encodedBytes);
+                    byte[] finalBytes = addAll(SAFETY, encodedBytes);
 
                     // Write
                     FileUtils.writeByteArrayToFile(fi, finalBytes);
